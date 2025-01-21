@@ -66,7 +66,7 @@ Crear una plataforma interactiva y visualmente atractiva para fanáticos de la F
   - Editar detalles de videos existentes.
   - Eliminar videos de la lista.
 - 📂 **Interfaz modular**: Componentes diseñados de forma reutilizable con React.
-- 🌐 **Consumo de API Mock**: Datos dinámicos obtenidos desde `mockapi.io`.
+- 🌐 **Consumo de API Mock**: 13 Datos dinámicos obtenidos desde `mockapi.io`.
 
 ---
 
@@ -86,7 +86,7 @@ Puedes acceder al código fuente del proyecto en este [repositorio](https://gith
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/F1Flix.git
+   git clone https://github.com/luisdh8/f1Flix.git
    ```
 
 2. **Instala las dependencias**:
