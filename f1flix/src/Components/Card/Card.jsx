@@ -12,7 +12,7 @@ const Card = ({ video }) => {
   const { deleteVideo, updateVideo } = useVideoContext();
 
   const handleEdit = () => {
-    const updatedVideo = { ...video, title: "New Title" }; // Cambia según lo que necesites
+    const updatedVideo = { ...video, title: "Nuevo Título" }; // Cambia según lo que necesites
     updateVideo(video.id, updatedVideo);
   };
 

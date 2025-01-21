@@ -8,8 +8,12 @@ const theme = {
       primaryHover: "#6895f0", // Color from Buttons of NewVideo pop-up
   
       categoryColors: {
-        "FRONT END": "#6bd1ff",
-        "BACK END": "#00c86f",
+        "Highlights": "#6bd1ff",
+        "Race": "#00c86f",
+        "Interviews": "#ffba05",
+        "Incidents": "#ff4d4d",
+        "Grill the Grid": "#ff4d4d",
+        "Funny": "#ff4d4d",
         MOBILE: "#ffba05",
       },
     },

@@ -37,6 +37,6 @@ export const IconButton = styled.button`
   font-size: 1.25rem;
 
   &:hover {
-    color: #2271d1;
+    color: #2166C1;
   }
 `;
