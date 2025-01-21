@@ -14,7 +14,9 @@ const theme = {
         "Incidents": "#ff4d4d",
         "Grill the Grid": "#ff4d4d",
         "Funny": "#ff4d4d",
-        MOBILE: "#ffba05",
+        "Tech Talk": "#ff4d4d",
+        "Stories": "#ff4d4d",
+        "Drama": "#ff4d4d",
       },
     },
   };
