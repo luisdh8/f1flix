@@ -11,6 +11,7 @@ export const ModalOverlay = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  overflow: auto; /* Permite que el contenido de la página sea desplazable */
 `;
 
 export const ModalContent = styled.div`
@@ -19,10 +20,10 @@ export const ModalContent = styled.div`
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   width: 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  max-height: 80%; /* Limita el tamaño del modal */
+  overflow-y: auto; /* Permite que el contenido del modal sea desplazable */
   position: relative;
+  z-index: 2000;
 `;
 
 export const ModalTitle = styled.h2`

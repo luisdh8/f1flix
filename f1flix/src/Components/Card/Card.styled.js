@@ -42,3 +42,21 @@ export const IconButton = styled.button`
     color: #2166C1;
   }
 `;
+
+export const CardTitle = styled.h3`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: ${({ theme, category }) =>
+    theme.colors.categoryColors[category] || "#000"};
+  z-index: 1;
+  border-bottom: 4px solid
+    ${({ theme, category }) => theme.colors.categoryColors[category] || "#000"};
+`;

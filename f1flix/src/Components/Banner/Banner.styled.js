@@ -3,7 +3,10 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 400px; /* Altura do banner */
+  height: 400px; /* Altura del banner */
+  border: 4px solid
+    ${({ theme, category }) => theme.colors.categoryColors[category] || "#000"};
+  border-radius: 12px; /* Opcional: Para bordes redondeados */
 `;
 
 export const BannerBackground = styled.img`
@@ -16,8 +19,10 @@ export const BannerBackground = styled.img`
 export const BannerImg = styled.img`
   width: 600px;
   border-radius: 15px;
-  box-shadow: 0px 0px 0.75rem 0.25rem #2271d1;
+  box-shadow: 0px 0px 0.75rem 0.25rem
+    ${({ theme, category }) => theme.colors.categoryColors[category] || "#2271d1"};
 `;
+
 
 export const BannerContent = styled.div`
   width: 100%;

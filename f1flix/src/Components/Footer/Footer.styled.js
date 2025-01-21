@@ -9,7 +9,7 @@ export const FooterContainer = styled.footer`
   background-color: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.color};
   width: 100%;
-  box-shadow: 0px 0px 0.75rem 0.25rem #2166C1;
+  box-shadow: 0px 0px 0.75rem 0.25rem #E74C3C;
 `;
 
 export const Logo = styled.img`

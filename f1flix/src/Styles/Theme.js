@@ -16,6 +16,7 @@ const theme = {
       "Tech Talk": "#4d7eff",     // New: Blue - technical, professional
       "Stories": "#00b4d8",       // New: Turquoise - storytelling, engaging
       "Drama": "#e74c3c",         // New: Different shade of red - dramatic, intense
+      "Pure F1": "#db0d52",       // New: Different shade of gold/yellow - pure, classic
     },
   },
 };
