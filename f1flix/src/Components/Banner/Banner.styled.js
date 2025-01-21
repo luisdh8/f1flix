@@ -17,7 +17,7 @@ export const BannerBackground = styled.img`
 `;
 
 export const BannerImg = styled.img`
-  width: 600px;
+  width: 520px;
   border-radius: 15px;
   box-shadow: 0px 0px 0.75rem 0.25rem
     ${({ theme, category }) => theme.colors.categoryColors[category] || "#2271d1"};

@@ -14,3 +14,7 @@ export const VideoList = styled.div`
   flex-wrap: wrap;
   gap: 1rem;
 `;
+
+export const VideosContainer = styled.div`
+  margin: 2px;
+`;

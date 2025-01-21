@@ -4,7 +4,7 @@ const theme = {
     secondary: "#131442",    // Slightly lighter than primary for visual hierarchy
     background: "#080920",   // Slightly darker than primary for depth
     color: "#F5F5F5",       // Keeping existing text color
-    primaryHover: "#3a68e0", // Darker than current hover for better contrast
+    primaryHover: "#E74C3C", // Darker than current hover for better contrast
 
     categoryColors: {
       "Highlights": "#6bd1ff",     // Keeping the existing light blue

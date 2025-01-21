@@ -10,8 +10,7 @@ export const ModalOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
-  overflow: auto; /* Permite que el contenido de la página sea desplazable */
+  z-index: 2000;
 `;
 
 export const ModalContent = styled.div`
@@ -20,10 +19,10 @@ export const ModalContent = styled.div`
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   width: 400px;
-  max-height: 80%; /* Limita el tamaño del modal */
-  overflow-y: auto; /* Permite que el contenido del modal sea desplazable */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   position: relative;
-  z-index: 2000;
 `;
 
 export const ModalTitle = styled.h2`
@@ -52,6 +51,22 @@ export const Button = styled.button`
   &:hover {
     background-color: ${({ theme }) => theme.colors.primary};
   }
+`;
+
+export const Select = styled.select`
+  padding: 0.5rem;
+  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border-radius: 4px;
+  font-size: 1rem;
+  color: ${({ theme }) => theme.colors.color};
+  background-color: ${({ theme }) => theme.colors.background};
+`;
+
+export const Option = styled.option`
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: ${({ theme }) => theme.colors.background};
+  color: ${({ theme }) => theme.colors.color};
 `;
 
 export const CloseButton = styled.button`

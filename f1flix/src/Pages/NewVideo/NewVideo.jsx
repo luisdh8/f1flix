@@ -6,6 +6,8 @@ import {
   Textarea,
   Button,
   FormTitle,
+  Select,
+  Option,
 } from "./NewVideo.styled";
 
 const NewVideo = () => {
@@ -45,6 +47,11 @@ const NewVideo = () => {
     });
   };
 
+  const categories = [
+    "Highlights", "Race", "Interviews", "Incidents", "Grill the Grid", 
+    "Funny", "Tech Talk", "Stories", "Drama", "Pure F1"
+  ];
+
   return (
     <FormContainer onSubmit={handleSubmit}>
       <FormTitle>Add New Video</FormTitle>
@@ -56,18 +63,23 @@ const NewVideo = () => {
         onChange={handleChange}
         required
       />
-      <Input
-        type="text"
+      <Select
         name="categoria"
-        placeholder="Category"
         value={formData.categoria}
         onChange={handleChange}
         required
-      />
+      >
+        <Option value="">Select Category</Option>
+        {categories.map((category) => (
+          <Option key={category} value={category}>
+            {category}
+          </Option>
+        ))}
+      </Select>
       <Input
         type="text"
         name="img"
-        placeholder="URL of the Image"
+        placeholder="Image URL"
         value={formData.img}
         onChange={handleChange}
         required
@@ -75,7 +87,7 @@ const NewVideo = () => {
       <Input
         type="text"
         name="video"
-        placeholder="URL of the Vídeo"
+        placeholder="Video URL"
         value={formData.video}
         onChange={handleChange}
         required
@@ -87,9 +99,9 @@ const NewVideo = () => {
         onChange={handleChange}
         required
       />
-      <Button type="submit">Save</Button>
+      <Button type="submit">Save Video</Button>
       <Button type="button" onClick={handleReset}>
-        Delete
+        Reset
       </Button>
     </FormContainer>
   );

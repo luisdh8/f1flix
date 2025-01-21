@@ -8,4 +8,5 @@ export const Main = styled.main`
   gap: 1rem;
   justify-content: center;
   flex: 1;
+  padding-bottom: 2rem;
 `;
