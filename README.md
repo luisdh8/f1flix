@@ -125,6 +125,3 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](MIT) par
 ---
 
 <p align="center">🚀 Hecho con ❤️ por un fan de la Fórmula 1 🚀</p>
-```
-
----
